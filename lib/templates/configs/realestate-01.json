@@ -1,0 +1,121 @@
+{
+  "id": "realestate-01",
+  "name": "Real Estate Landing Page",
+  "industry": "real-estate",
+  "description": "Premium real estate template with split-image hero and property showcase design",
+  "colorScheme": {
+    "primary": "#C4B49A",
+    "primaryLight": "#F5EFE4",
+    "primaryDark": "#2D5016",
+    "secondary": "#2D5016",
+    "secondaryLight": "#E8F0EB",
+    "background": "#FFFFFF",
+    "text": "#1E2A3A",
+    "textLight": "#64748B",
+    "border": "#E5E7EB"
+  },
+  "fonts": {
+    "heading": "pf",
+    "body": "man",
+    "accent": "cg"
+  },
+  "sections": [
+    {
+      "type": "nav",
+      "enabled": true,
+      "config": {
+        "variant": "glass",
+        "logo": {
+          "type": "text",
+          "text": "{{businessName}}"
+        },
+        "links": [
+          { "label": "Properties", "href": "#properties" },
+          { "label": "About", "href": "#about" },
+          { "label": "Services", "href": "#services" },
+          { "label": "Contact", "href": "#contact" }
+        ],
+        "cta": {
+          "label": "Schedule Showing",
+          "href": "#showing"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "hero",
+      "enabled": true,
+      "config": {
+        "variant": "split-image",
+        "headline": "{{headline}}",
+        "subheadline": "{{subheadline}}",
+        "cta": {
+          "primary": "{{ctaPrimary}}",
+          "secondary": "View Listings"
+        },
+        "image": {
+          "url": "{{heroImageUrl}}",
+          "position": "right"
+        }
+      }
+    },
+    {
+      "type": "features",
+      "enabled": true,
+      "config": {
+        "variant": "grid-2",
+        "headline": "Your Trusted Real Estate Partner",
+        "subheadline": "Experience, expertise, and dedication to finding your perfect property",
+        "features": [
+          {
+            "title": "Expert Market Knowledge",
+            "description": "Deep understanding of local market trends, pricing, and neighborhood dynamics to help you make informed decisions"
+          },
+          {
+            "title": "Personalized Service",
+            "description": "Tailored approach to match your unique needs, timeline, and budget for the perfect property match"
+          },
+          {
+            "title": "Proven Track Record",
+            "description": "Hundreds of successful transactions and satisfied clients who've found their dream homes"
+          },
+          {
+            "title": "Full-Service Support",
+            "description": "From initial search to closing day, we handle every detail to ensure a smooth, stress-free experience"
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "enabled": true,
+      "config": {
+        "variant": "centered",
+        "headline": "Ready to find your dream home?",
+        "subheadline": "Let's start your real estate journey today with a personalized consultation",
+        "buttonText": "Get Started",
+        "buttonHref": "#contact"
+      }
+    },
+    {
+      "type": "footer",
+      "enabled": true,
+      "config": {
+        "variant": "centered",
+        "companyName": "{{businessName}}",
+        "tagline": "Your trusted partner in real estate",
+        "links": [
+          { "label": "Properties", "href": "#properties" },
+          { "label": "About", "href": "#about" },
+          { "label": "Blog", "href": "#blog" },
+          { "label": "Contact", "href": "#contact" }
+        ],
+        "social": [
+          { "platform": "facebook", "url": "https://facebook.com" },
+          { "platform": "instagram", "url": "https://instagram.com" },
+          { "platform": "linkedin", "url": "https://linkedin.com" }
+        ]
+      }
+    }
+  ]
+}

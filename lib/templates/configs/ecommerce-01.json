@@ -1,0 +1,126 @@
+{
+  "id": "ecommerce-01",
+  "name": "E-Commerce Landing Page",
+  "industry": "ecommerce",
+  "description": "Conversion-optimized e-commerce template with product showcase and trust signals",
+  "colorScheme": {
+    "primary": "#DC2626",
+    "primaryLight": "#FEE2E2",
+    "primaryDark": "#991B1B",
+    "secondary": "#F59E0B",
+    "secondaryLight": "#FEF3C7",
+    "background": "#FFFFFF",
+    "text": "#1F2937",
+    "textLight": "#6B7280",
+    "border": "#E5E7EB"
+  },
+  "fonts": {
+    "heading": "bar",
+    "body": "int",
+    "accent": "beb"
+  },
+  "sections": [
+    {
+      "type": "nav",
+      "enabled": true,
+      "config": {
+        "variant": "sticky",
+        "logo": {
+          "type": "text",
+          "text": "{{businessName}}"
+        },
+        "links": [
+          { "label": "Shop", "href": "#shop" },
+          { "label": "New Arrivals", "href": "#new" },
+          { "label": "Sale", "href": "#sale" },
+          { "label": "About", "href": "#about" }
+        ],
+        "cta": {
+          "label": "Cart (0)",
+          "href": "#cart"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "hero",
+      "enabled": true,
+      "config": {
+        "variant": "split-image",
+        "headline": "{{headline}}",
+        "subheadline": "{{subheadline}}",
+        "cta": {
+          "primary": "{{ctaPrimary}}",
+          "secondary": "Browse Collection"
+        },
+        "image": {
+          "url": "{{heroImageUrl}}",
+          "position": "right"
+        }
+      }
+    },
+    {
+      "type": "features",
+      "enabled": true,
+      "config": {
+        "variant": "grid-4",
+        "headline": "Why Shop With Us",
+        "subheadline": "Quality products, exceptional service, guaranteed satisfaction",
+        "features": [
+          {
+            "title": "Free Shipping",
+            "description": "On all orders over $50"
+          },
+          {
+            "title": "Easy Returns",
+            "description": "30-day money-back guarantee"
+          },
+          {
+            "title": "Secure Checkout",
+            "description": "SSL encrypted transactions"
+          },
+          {
+            "title": "Fast Delivery",
+            "description": "Ships within 24 hours"
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "enabled": true,
+      "config": {
+        "variant": "banner",
+        "headline": "Limited Time Offer: 20% Off Your First Order",
+        "subheadline": "Use code WELCOME20 at checkout",
+        "buttonText": "Shop Now",
+        "buttonHref": "#shop"
+      }
+    },
+    {
+      "type": "footer",
+      "enabled": true,
+      "config": {
+        "variant": "multi-column",
+        "companyName": "{{businessName}}",
+        "tagline": "Quality products, delivered",
+        "links": [
+          { "label": "Shop", "href": "#shop" },
+          { "label": "Track Order", "href": "#track" },
+          { "label": "Returns", "href": "#returns" },
+          { "label": "About Us", "href": "#about" },
+          { "label": "Contact", "href": "#contact" },
+          { "label": "FAQ", "href": "#faq" },
+          { "label": "Shipping", "href": "#shipping" },
+          { "label": "Privacy", "href": "#privacy" },
+          { "label": "Terms", "href": "#terms" }
+        ],
+        "social": [
+          { "platform": "facebook", "url": "https://facebook.com" },
+          { "platform": "instagram", "url": "https://instagram.com" },
+          { "platform": "twitter", "url": "https://twitter.com" }
+        ]
+      }
+    }
+  ]
+}

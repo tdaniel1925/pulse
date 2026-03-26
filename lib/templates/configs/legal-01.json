@@ -1,0 +1,136 @@
+{
+  "id": "legal-01",
+  "name": "Legal Services Landing Page",
+  "industry": "legal",
+  "description": "Luxury legal template with navy/gold color scheme, glass nav, and professional authority",
+  "colorScheme": {
+    "primary": "#C9A84C",
+    "primaryLight": "#F7EDD0",
+    "primaryDark": "#9E7A2A",
+    "secondary": "#0F1C2E",
+    "secondaryLight": "#243650",
+    "accent": "#C9A84C",
+    "background": "#FAF8F3",
+    "text": "#0F1C2E",
+    "textLight": "#4A5568",
+    "border": "#E5E7EB"
+  },
+  "fonts": {
+    "heading": "cg",
+    "body": "lb",
+    "accent": "cg"
+  },
+  "sections": [
+    {
+      "type": "nav",
+      "enabled": true,
+      "config": {
+        "variant": "luxury",
+        "logo": {
+          "type": "text",
+          "text": "{{businessName}}",
+          "iconColor": "#C9A84C"
+        },
+        "links": [
+          { "label": "Practice Areas", "href": "#practice" },
+          { "label": "Our Attorneys", "href": "#attorneys" },
+          { "label": "Case Results", "href": "#results" },
+          { "label": "Contact", "href": "#contact" }
+        ],
+        "cta": {
+          "label": "Free Consultation",
+          "href": "#consult"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "hero",
+      "enabled": true,
+      "config": {
+        "variant": "split-image",
+        "headline": "{{headline}}",
+        "subheadline": "{{subheadline}}",
+        "cta": {
+          "primary": "{{ctaPrimary}}",
+          "secondary": null
+        },
+        "image": {
+          "url": "{{heroImageUrl}}",
+          "position": "left"
+        }
+      }
+    },
+    {
+      "type": "features",
+      "enabled": true,
+      "config": {
+        "variant": "cards",
+        "headline": "Practice Areas",
+        "subheadline": "Decades of experience protecting your rights and interests",
+        "features": [
+          {
+            "title": "Personal Injury",
+            "description": "Aggressive representation for accident victims seeking maximum compensation"
+          },
+          {
+            "title": "Business Law",
+            "description": "Strategic counsel for contracts, disputes, and corporate matters"
+          },
+          {
+            "title": "Estate Planning",
+            "description": "Comprehensive planning to protect your legacy and loved ones"
+          },
+          {
+            "title": "Real Estate",
+            "description": "Expert guidance through complex property transactions and disputes"
+          },
+          {
+            "title": "Employment Law",
+            "description": "Protecting employee rights and employer interests"
+          },
+          {
+            "title": "Family Law",
+            "description": "Compassionate representation in divorce, custody, and family matters"
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "enabled": true,
+      "config": {
+        "variant": "split",
+        "headline": "Your case deserves experienced counsel",
+        "subheadline": "Contact us today for a free consultation and learn how we can help",
+        "buttonText": "Schedule Consultation",
+        "buttonHref": "#consult",
+        "backgroundGradient": "linear-gradient(135deg, #F7EDD0, #FAF8F3)"
+      }
+    },
+    {
+      "type": "footer",
+      "enabled": true,
+      "config": {
+        "variant": "multi-column",
+        "companyName": "{{businessName}}",
+        "tagline": "Attorneys at Law",
+        "links": [
+          { "label": "Practice Areas", "href": "#practice" },
+          { "label": "Our Team", "href": "#team" },
+          { "label": "About Us", "href": "#about" },
+          { "label": "Case Results", "href": "#results" },
+          { "label": "Blog", "href": "#blog" },
+          { "label": "Contact", "href": "#contact" },
+          { "label": "Privacy Policy", "href": "#privacy" },
+          { "label": "Terms of Service", "href": "#terms" },
+          { "label": "Disclaimer", "href": "#disclaimer" }
+        ],
+        "social": [
+          { "platform": "linkedin", "url": "https://linkedin.com" },
+          { "platform": "facebook", "url": "https://facebook.com" }
+        ]
+      }
+    }
+  ]
+}

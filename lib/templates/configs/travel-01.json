@@ -1,0 +1,130 @@
+{
+  "id": "travel-01",
+  "name": "Travel & Adventure Landing Page",
+  "industry": "travel",
+  "description": "Inspiring travel template with immersive imagery and adventure-focused messaging",
+  "colorScheme": {
+    "primary": "#2E86AB",
+    "primaryLight": "#E0F0F7",
+    "primaryDark": "#0A2E3E",
+    "secondary": "#E8D5B0",
+    "accent": "#F4845F",
+    "background": "#FFFFFF",
+    "text": "#1F2937",
+    "textLight": "#6B7280",
+    "border": "#E5E7EB"
+  },
+  "fonts": {
+    "heading": "pf",
+    "body": "man",
+    "accent": "lor"
+  },
+  "sections": [
+    {
+      "type": "nav",
+      "enabled": true,
+      "config": {
+        "variant": "glass",
+        "logo": {
+          "type": "text",
+          "text": "{{businessName}}"
+        },
+        "links": [
+          { "label": "Destinations", "href": "#destinations" },
+          { "label": "Tours", "href": "#tours" },
+          { "label": "About", "href": "#about" },
+          { "label": "Blog", "href": "#blog" }
+        ],
+        "cta": {
+          "label": "Book Now",
+          "href": "#book"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "hero",
+      "enabled": true,
+      "config": {
+        "variant": "image-background",
+        "headline": "{{headline}}",
+        "subheadline": "{{subheadline}}",
+        "cta": {
+          "primary": "{{ctaPrimary}}",
+          "secondary": "Explore Destinations"
+        },
+        "image": {
+          "url": "{{heroImageUrl}}",
+          "position": "background"
+        }
+      }
+    },
+    {
+      "type": "features",
+      "enabled": true,
+      "config": {
+        "variant": "grid-3",
+        "headline": "Why Travel With Us",
+        "subheadline": "Unforgettable experiences, expertly crafted",
+        "features": [
+          {
+            "title": "Expert Guides",
+            "description": "Local experts who bring destinations to life with insider knowledge and passion"
+          },
+          {
+            "title": "Small Groups",
+            "description": "Intimate group sizes for personalized attention and authentic connections"
+          },
+          {
+            "title": "Unique Experiences",
+            "description": "Off-the-beaten-path adventures you won't find anywhere else"
+          },
+          {
+            "title": "All-Inclusive",
+            "description": "No hidden costs—accommodations, meals, and activities included"
+          },
+          {
+            "title": "Flexible Booking",
+            "description": "Free cancellation up to 30 days before departure"
+          },
+          {
+            "title": "24/7 Support",
+            "description": "Round-the-clock assistance before, during, and after your trip"
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "enabled": true,
+      "config": {
+        "variant": "full-width",
+        "headline": "Your next adventure awaits",
+        "subheadline": "Book now and save 15% on your first journey",
+        "buttonText": "View Destinations",
+        "buttonHref": "#destinations",
+        "backgroundGradient": "linear-gradient(135deg, #2E86AB, #0A2E3E)"
+      }
+    },
+    {
+      "type": "footer",
+      "enabled": true,
+      "config": {
+        "variant": "simple",
+        "companyName": "{{businessName}}",
+        "tagline": "Creating memories around the world",
+        "links": [
+          { "label": "Destinations", "href": "#destinations" },
+          { "label": "Book", "href": "#book" },
+          { "label": "FAQs", "href": "#faq" },
+          { "label": "Contact", "href": "#contact" }
+        ],
+        "social": [
+          { "platform": "facebook", "url": "https://facebook.com" },
+          { "platform": "instagram", "url": "https://instagram.com" },
+          { "platform": "twitter", "url": "https://twitter.com" }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "automotive-01",
+  "name": "Automotive Landing Page",
+  "industry": "automotive",
+  "description": "Bold automotive template showcasing vehicles, services, and dealership features",
+  "colorScheme": {
+    "primary": "#DC2626",
+    "primaryLight": "#FEE2E2",
+    "primaryDark": "#0F0F0F",
+    "secondary": "#D4D4D8",
+    "accent": "#1E40AF",
+    "background": "#FFFFFF",
+    "text": "#0F0F0F",
+    "textLight": "#71717A",
+    "border": "#E4E4E7"
+  },
+  "fonts": {
+    "heading": "beb",
+    "body": "bar",
+    "accent": "barc"
+  },
+  "sections": [
+    {
+      "type": "nav",
+      "enabled": true,
+      "config": {
+        "variant": "solid",
+        "logo": {
+          "type": "text",
+          "text": "{{businessName}}"
+        },
+        "links": [
+          { "label": "Inventory", "href": "#inventory" },
+          { "label": "Service", "href": "#service" },
+          { "label": "Financing", "href": "#financing" },
+          { "label": "About", "href": "#about" }
+        ],
+        "cta": {
+          "label": "Schedule Test Drive",
+          "href": "#testdrive"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "hero",
+      "enabled": true,
+      "config": {
+        "variant": "image-background",
+        "headline": "{{headline}}",
+        "subheadline": "{{subheadline}}",
+        "cta": {
+          "primary": "{{ctaPrimary}}",
+          "secondary": "View Inventory"
+        },
+        "image": {
+          "url": "{{heroImageUrl}}",
+          "position": "background"
+        }
+      }
+    },
+    {
+      "type": "features",
+      "enabled": true,
+      "config": {
+        "variant": "grid-4",
+        "headline": "Why Choose Us",
+        "subheadline": "Trusted dealership serving the community for over 20 years",
+        "features": [
+          {
+            "title": "Quality Vehicles",
+            "description": "Hand-selected inventory with thorough inspections"
+          },
+          {
+            "title": "Best Prices",
+            "description": "Competitive pricing and special financing options"
+          },
+          {
+            "title": "Expert Service",
+            "description": "Certified technicians for all your maintenance needs"
+          },
+          {
+            "title": "Trade-Ins Welcome",
+            "description": "Get top dollar for your current vehicle"
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "enabled": true,
+      "config": {
+        "variant": "full-width",
+        "headline": "Find your perfect vehicle today",
+        "subheadline": "Schedule a test drive and experience the difference",
+        "buttonText": "Schedule Test Drive",
+        "buttonHref": "#testdrive",
+        "backgroundGradient": "linear-gradient(135deg, #DC2626, #0F0F0F)"
+      }
+    },
+    {
+      "type": "footer",
+      "enabled": true,
+      "config": {
+        "variant": "simple",
+        "companyName": "{{businessName}}",
+        "tagline": "Your trusted automotive partner",
+        "links": [
+          { "label": "Inventory", "href": "#inventory" },
+          { "label": "Service", "href": "#service" },
+          { "label": "Financing", "href": "#financing" },
+          { "label": "Contact", "href": "#contact" }
+        ],
+        "social": [
+          { "platform": "facebook", "url": "https://facebook.com" },
+          { "platform": "instagram", "url": "https://instagram.com" }
+        ]
+      }
+    }
+  ]
+}

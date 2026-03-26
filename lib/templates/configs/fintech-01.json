@@ -1,0 +1,134 @@
+{
+  "id": "fintech-01",
+  "name": "Fintech Landing Page",
+  "industry": "fintech",
+  "description": "Professional fintech template with trust-focused design, clean layout, and security emphasis",
+  "colorScheme": {
+    "primary": "#7DAF8A",
+    "primaryLight": "#EAF4EC",
+    "primaryDark": "#2A3240",
+    "secondary": "#C9A84C",
+    "secondaryLight": "#F7EDD0",
+    "background": "#FFFFFF",
+    "text": "#2A3240",
+    "textLight": "#64748B",
+    "border": "#E5E7EB"
+  },
+  "fonts": {
+    "heading": "sg",
+    "body": "int",
+    "accent": "bar"
+  },
+  "sections": [
+    {
+      "type": "nav",
+      "enabled": true,
+      "config": {
+        "variant": "solid",
+        "logo": {
+          "type": "text",
+          "text": "{{businessName}}"
+        },
+        "links": [
+          { "label": "Solutions", "href": "#solutions" },
+          { "label": "Security", "href": "#security" },
+          { "label": "Pricing", "href": "#pricing" },
+          { "label": "About", "href": "#about" }
+        ],
+        "cta": {
+          "label": "Get Started",
+          "href": "#signup"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "hero",
+      "enabled": true,
+      "config": {
+        "variant": "centered",
+        "headline": "{{headline}}",
+        "subheadline": "{{subheadline}}",
+        "cta": {
+          "primary": "{{ctaPrimary}}",
+          "secondary": "Watch Demo"
+        },
+        "backgroundGradient": "linear-gradient(to bottom, #EAF4EC, #FFFFFF)",
+        "image": {
+          "url": "{{heroImageUrl}}",
+          "position": "background"
+        }
+      }
+    },
+    {
+      "type": "features",
+      "enabled": true,
+      "config": {
+        "variant": "grid-3",
+        "headline": "Built for Modern Finance",
+        "subheadline": "Enterprise-grade security with consumer-friendly design",
+        "features": [
+          {
+            "title": "Bank-Level Security",
+            "description": "256-bit encryption, SOC 2 compliance, and multi-factor authentication to protect your financial data"
+          },
+          {
+            "title": "Real-Time Processing",
+            "description": "Instant transactions and updates with 99.99% uptime guarantee for mission-critical operations"
+          },
+          {
+            "title": "Seamless Integration",
+            "description": "Connect with your existing banking infrastructure via our comprehensive API"
+          },
+          {
+            "title": "Regulatory Compliance",
+            "description": "Built to meet FDIC, FINRA, and international financial regulatory requirements"
+          },
+          {
+            "title": "Advanced Analytics",
+            "description": "Powerful insights and reporting tools to track and optimize your financial performance"
+          },
+          {
+            "title": "24/7 Support",
+            "description": "Dedicated account management and technical support whenever you need it"
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "enabled": true,
+      "config": {
+        "variant": "centered",
+        "headline": "Ready to transform your financial operations?",
+        "subheadline": "Join thousands of businesses already using our platform",
+        "buttonText": "Start Free Trial",
+        "buttonHref": "#trial"
+      }
+    },
+    {
+      "type": "footer",
+      "enabled": true,
+      "config": {
+        "variant": "multi-column",
+        "companyName": "{{businessName}}",
+        "tagline": "Financial technology made simple",
+        "links": [
+          { "label": "Solutions", "href": "#solutions" },
+          { "label": "Security", "href": "#security" },
+          { "label": "Pricing", "href": "#pricing" },
+          { "label": "API Docs", "href": "#api" },
+          { "label": "About Us", "href": "#about" },
+          { "label": "Careers", "href": "#careers" },
+          { "label": "Privacy Policy", "href": "#privacy" },
+          { "label": "Terms of Service", "href": "#terms" },
+          { "label": "Compliance", "href": "#compliance" }
+        ],
+        "social": [
+          { "platform": "linkedin", "url": "https://linkedin.com" },
+          { "platform": "twitter", "url": "https://twitter.com" }
+        ]
+      }
+    }
+  ]
+}

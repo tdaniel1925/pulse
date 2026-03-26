@@ -1,0 +1,131 @@
+{
+  "id": "fitness-01",
+  "name": "Fitness & Wellness Landing Page",
+  "industry": "fitness",
+  "description": "Energetic fitness template with bold design, motivational copy, and action-focused CTAs",
+  "colorScheme": {
+    "primary": "#E8614A",
+    "primaryLight": "#FDECEA",
+    "primaryDark": "#1C1C1E",
+    "secondary": "#F5F3F0",
+    "background": "#FFFFFF",
+    "text": "#1C1C1E",
+    "textLight": "#64748B",
+    "border": "#E5E7EB"
+  },
+  "fonts": {
+    "heading": "beb",
+    "body": "bar",
+    "accent": "barc"
+  },
+  "sections": [
+    {
+      "type": "nav",
+      "enabled": true,
+      "config": {
+        "variant": "sticky",
+        "logo": {
+          "type": "text",
+          "text": "{{businessName}}",
+          "iconColor": "#E8614A"
+        },
+        "links": [
+          { "label": "Programs", "href": "#programs" },
+          { "label": "Trainers", "href": "#trainers" },
+          { "label": "Schedule", "href": "#schedule" },
+          { "label": "Pricing", "href": "#pricing" }
+        ],
+        "cta": {
+          "label": "Start Free Trial",
+          "href": "#trial"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "hero",
+      "enabled": true,
+      "config": {
+        "variant": "gradient-split",
+        "headline": "{{headline}}",
+        "subheadline": "{{subheadline}}",
+        "cta": {
+          "primary": "{{ctaPrimary}}",
+          "secondary": "View Programs"
+        },
+        "backgroundGradient": "linear-gradient(160deg, #FDECEA 0%, #F5F3F0 40%, #FFFFFF 100%)",
+        "image": {
+          "url": "{{heroImageUrl}}",
+          "position": "right"
+        }
+      }
+    },
+    {
+      "type": "features",
+      "enabled": true,
+      "config": {
+        "variant": "cards",
+        "headline": "Transform Your Fitness Journey",
+        "subheadline": "Expert guidance, proven results, supportive community",
+        "features": [
+          {
+            "title": "Personal Training",
+            "description": "One-on-one coaching tailored to your goals, fitness level, and schedule"
+          },
+          {
+            "title": "Group Classes",
+            "description": "High-energy classes that build strength, endurance, and community"
+          },
+          {
+            "title": "Nutrition Coaching",
+            "description": "Custom meal plans and nutritional guidance to fuel your transformation"
+          },
+          {
+            "title": "Progress Tracking",
+            "description": "Advanced metrics and analytics to monitor your fitness journey"
+          },
+          {
+            "title": "Flexible Membership",
+            "description": "No long-term contracts. Cancel or modify your plan anytime"
+          },
+          {
+            "title": "Premium Equipment",
+            "description": "State-of-the-art facilities with the latest fitness technology"
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "enabled": true,
+      "config": {
+        "variant": "full-width",
+        "headline": "Your transformation starts today",
+        "subheadline": "Join our community and achieve the results you've always wanted",
+        "buttonText": "Claim Your Free Week",
+        "buttonHref": "#trial",
+        "backgroundGradient": "linear-gradient(135deg, #E8614A, #1C1C1E)"
+      }
+    },
+    {
+      "type": "footer",
+      "enabled": true,
+      "config": {
+        "variant": "simple",
+        "companyName": "{{businessName}}",
+        "tagline": "Empowering your fitness journey",
+        "links": [
+          { "label": "Programs", "href": "#programs" },
+          { "label": "Trainers", "href": "#trainers" },
+          { "label": "Locations", "href": "#locations" },
+          { "label": "Contact", "href": "#contact" }
+        ],
+        "social": [
+          { "platform": "facebook", "url": "https://facebook.com" },
+          { "platform": "instagram", "url": "https://instagram.com" },
+          { "platform": "twitter", "url": "https://twitter.com" }
+        ]
+      }
+    }
+  ]
+}

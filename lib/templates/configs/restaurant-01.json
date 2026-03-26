@@ -1,0 +1,130 @@
+{
+  "id": "restaurant-01",
+  "name": "Food & Restaurant Landing Page",
+  "industry": "restaurant",
+  "description": "Warm, inviting restaurant template with appetizing design and reservation focus",
+  "colorScheme": {
+    "primary": "#DC2626",
+    "primaryLight": "#FEE2E2",
+    "primaryDark": "#1C1917",
+    "secondary": "#F97316",
+    "secondaryLight": "#FFEDD5",
+    "accent": "#FFFBEB",
+    "background": "#FFFBEB",
+    "text": "#1C1917",
+    "textLight": "#78716C",
+    "border": "#E7E5E4"
+  },
+  "fonts": {
+    "heading": "pf",
+    "body": "lat",
+    "accent": "cg"
+  },
+  "sections": [
+    {
+      "type": "nav",
+      "enabled": true,
+      "config": {
+        "variant": "glass",
+        "logo": {
+          "type": "text",
+          "text": "{{businessName}}"
+        },
+        "links": [
+          { "label": "Menu", "href": "#menu" },
+          { "label": "About", "href": "#about" },
+          { "label": "Reviews", "href": "#reviews" },
+          { "label": "Contact", "href": "#contact" }
+        ],
+        "cta": {
+          "label": "Reserve Table",
+          "href": "#reserve"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "hero",
+      "enabled": true,
+      "config": {
+        "variant": "image-background",
+        "headline": "{{headline}}",
+        "subheadline": "{{subheadline}}",
+        "cta": {
+          "primary": "{{ctaPrimary}}",
+          "secondary": "View Menu"
+        },
+        "image": {
+          "url": "{{heroImageUrl}}",
+          "position": "background"
+        }
+      }
+    },
+    {
+      "type": "features",
+      "enabled": true,
+      "config": {
+        "variant": "grid-3",
+        "headline": "What Makes Us Special",
+        "subheadline": "Authentic flavors, fresh ingredients, unforgettable experiences",
+        "features": [
+          {
+            "title": "Farm-to-Table Fresh",
+            "description": "We source ingredients daily from local farms to ensure the highest quality and freshness"
+          },
+          {
+            "title": "Award-Winning Chef",
+            "description": "Led by acclaimed Chef {{chefName}} with 20+ years of culinary excellence"
+          },
+          {
+            "title": "Seasonal Menu",
+            "description": "Rotating selections that highlight the best ingredients each season has to offer"
+          },
+          {
+            "title": "Private Events",
+            "description": "Host your special occasions in our elegant private dining spaces"
+          },
+          {
+            "title": "Full Bar",
+            "description": "Craft cocktails, curated wine list, and local craft beers"
+          },
+          {
+            "title": "Dietary Options",
+            "description": "Vegetarian, vegan, and gluten-free options available on request"
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "enabled": true,
+      "config": {
+        "variant": "split",
+        "headline": "Experience culinary excellence tonight",
+        "subheadline": "Reserve your table and discover why we're the neighborhood favorite",
+        "buttonText": "Make Reservation",
+        "buttonHref": "#reserve",
+        "backgroundGradient": "linear-gradient(135deg, #FEE2E2, #FFEDD5)"
+      }
+    },
+    {
+      "type": "footer",
+      "enabled": true,
+      "config": {
+        "variant": "centered",
+        "companyName": "{{businessName}}",
+        "tagline": "Where every meal is a celebration",
+        "links": [
+          { "label": "Menu", "href": "#menu" },
+          { "label": "Reservations", "href": "#reserve" },
+          { "label": "Hours", "href": "#hours" },
+          { "label": "Contact", "href": "#contact" }
+        ],
+        "social": [
+          { "platform": "facebook", "url": "https://facebook.com" },
+          { "platform": "instagram", "url": "https://instagram.com" }
+        ]
+      }
+    }
+  ]
+}

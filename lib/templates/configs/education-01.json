@@ -1,0 +1,136 @@
+{
+  "id": "education-01",
+  "name": "Online Education Landing Page",
+  "industry": "education",
+  "description": "Engaging education template focused on course showcase and learning outcomes",
+  "colorScheme": {
+    "primary": "#4A90D9",
+    "primaryLight": "#E8F2FC",
+    "primaryDark": "#1E3A5F",
+    "secondary": "#F5A623",
+    "secondaryLight": "#FEF3DC",
+    "background": "#FFFFFF",
+    "text": "#1F2937",
+    "textLight": "#6B7280",
+    "border": "#E5E7EB"
+  },
+  "fonts": {
+    "heading": "pf",
+    "body": "int",
+    "accent": "nun"
+  },
+  "sections": [
+    {
+      "type": "nav",
+      "enabled": true,
+      "config": {
+        "variant": "sticky",
+        "logo": {
+          "type": "text",
+          "text": "{{businessName}}",
+          "iconColor": "#4A90D9"
+        },
+        "links": [
+          { "label": "Courses", "href": "#courses" },
+          { "label": "About", "href": "#about" },
+          { "label": "Pricing", "href": "#pricing" },
+          { "label": "Blog", "href": "#blog" }
+        ],
+        "cta": {
+          "label": "Enroll Now",
+          "href": "#enroll"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "hero",
+      "enabled": true,
+      "config": {
+        "variant": "gradient-split",
+        "headline": "{{headline}}",
+        "subheadline": "{{subheadline}}",
+        "cta": {
+          "primary": "{{ctaPrimary}}",
+          "secondary": "Browse Courses"
+        },
+        "backgroundGradient": "linear-gradient(160deg, #E8F2FC 0%, #FEF3DC 40%, #FFFFFF 100%)",
+        "image": {
+          "url": "{{heroImageUrl}}",
+          "position": "right"
+        }
+      }
+    },
+    {
+      "type": "features",
+      "enabled": true,
+      "config": {
+        "variant": "grid-3",
+        "headline": "Learn at Your Own Pace",
+        "subheadline": "Quality education designed for busy professionals",
+        "features": [
+          {
+            "title": "Expert Instructors",
+            "description": "Learn from industry leaders with real-world experience and teaching excellence"
+          },
+          {
+            "title": "Flexible Schedule",
+            "description": "Study anytime, anywhere with lifetime access to all course materials"
+          },
+          {
+            "title": "Practical Projects",
+            "description": "Build portfolio-worthy projects that demonstrate your new skills"
+          },
+          {
+            "title": "Certificate of Completion",
+            "description": "Earn recognized credentials to showcase your achievements"
+          },
+          {
+            "title": "Community Support",
+            "description": "Connect with fellow learners and get help when you need it"
+          },
+          {
+            "title": "Money-Back Guarantee",
+            "description": "30-day refund policy if you're not completely satisfied"
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "enabled": true,
+      "config": {
+        "variant": "centered",
+        "headline": "Start learning today",
+        "subheadline": "Join thousands of students advancing their careers",
+        "buttonText": "View Courses",
+        "buttonHref": "#courses"
+      }
+    },
+    {
+      "type": "footer",
+      "enabled": true,
+      "config": {
+        "variant": "multi-column",
+        "companyName": "{{businessName}}",
+        "tagline": "Empowering learners worldwide",
+        "links": [
+          { "label": "All Courses", "href": "#courses" },
+          { "label": "For Business", "href": "#business" },
+          { "label": "About Us", "href": "#about" },
+          { "label": "Instructors", "href": "#instructors" },
+          { "label": "Blog", "href": "#blog" },
+          { "label": "Support", "href": "#support" },
+          { "label": "Privacy", "href": "#privacy" },
+          { "label": "Terms", "href": "#terms" },
+          { "label": "Careers", "href": "#careers" }
+        ],
+        "social": [
+          { "platform": "facebook", "url": "https://facebook.com" },
+          { "platform": "linkedin", "url": "https://linkedin.com" },
+          { "platform": "twitter", "url": "https://twitter.com" }
+        ]
+      }
+    }
+  ]
+}

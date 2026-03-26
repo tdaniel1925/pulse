@@ -1,0 +1,134 @@
+{
+  "id": "saas-01",
+  "name": "SaaS Landing Page",
+  "industry": "saas",
+  "description": "Modern SaaS template with product showcase, feature highlights, and conversion focus",
+  "colorScheme": {
+    "primary": "#3B82F6",
+    "primaryLight": "#EFF6FF",
+    "primaryDark": "#1E3A8A",
+    "secondary": "#8B5CF6",
+    "secondaryLight": "#F5F3FF",
+    "background": "#F9FAFB",
+    "text": "#111827",
+    "textLight": "#6B7280",
+    "border": "#E5E7EB"
+  },
+  "fonts": {
+    "heading": "int",
+    "body": "int",
+    "accent": "sg"
+  },
+  "sections": [
+    {
+      "type": "nav",
+      "enabled": true,
+      "config": {
+        "variant": "minimal",
+        "logo": {
+          "type": "text",
+          "text": "{{businessName}}"
+        },
+        "links": [
+          { "label": "Features", "href": "#features" },
+          { "label": "Pricing", "href": "#pricing" },
+          { "label": "Docs", "href": "#docs" },
+          { "label": "Blog", "href": "#blog" }
+        ],
+        "cta": {
+          "label": "Start Free",
+          "href": "#signup"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "hero",
+      "enabled": true,
+      "config": {
+        "variant": "centered",
+        "headline": "{{headline}}",
+        "subheadline": "{{subheadline}}",
+        "cta": {
+          "primary": "{{ctaPrimary}}",
+          "secondary": "Watch Demo"
+        },
+        "backgroundGradient": "linear-gradient(to bottom, #EFF6FF, #F9FAFB)",
+        "image": {
+          "url": "{{heroImageUrl}}",
+          "position": "background"
+        }
+      }
+    },
+    {
+      "type": "features",
+      "enabled": true,
+      "config": {
+        "variant": "grid-3",
+        "headline": "Everything you need to scale",
+        "subheadline": "Powerful features built for modern teams",
+        "features": [
+          {
+            "title": "Real-Time Collaboration",
+            "description": "Work together seamlessly with live updates and instant syncing across all devices"
+          },
+          {
+            "title": "Advanced Analytics",
+            "description": "Deep insights into your data with customizable dashboards and reporting"
+          },
+          {
+            "title": "API Integration",
+            "description": "Connect with your favorite tools via our comprehensive REST API"
+          },
+          {
+            "title": "Enterprise Security",
+            "description": "Bank-level encryption, SSO, and compliance with SOC 2, GDPR, and HIPAA"
+          },
+          {
+            "title": "Automated Workflows",
+            "description": "Save time with smart automation and custom workflow builders"
+          },
+          {
+            "title": "24/7 Support",
+            "description": "Get help whenever you need it from our expert support team"
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "enabled": true,
+      "config": {
+        "variant": "centered",
+        "headline": "Ready to get started?",
+        "subheadline": "Join thousands of teams already using our platform",
+        "buttonText": "Start Free Trial",
+        "buttonHref": "#trial"
+      }
+    },
+    {
+      "type": "footer",
+      "enabled": true,
+      "config": {
+        "variant": "multi-column",
+        "companyName": "{{businessName}}",
+        "tagline": "Built for modern teams",
+        "links": [
+          { "label": "Features", "href": "#features" },
+          { "label": "Pricing", "href": "#pricing" },
+          { "label": "API", "href": "#api" },
+          { "label": "About", "href": "#about" },
+          { "label": "Blog", "href": "#blog" },
+          { "label": "Careers", "href": "#careers" },
+          { "label": "Privacy", "href": "#privacy" },
+          { "label": "Terms", "href": "#terms" },
+          { "label": "Status", "href": "#status" }
+        ],
+        "social": [
+          { "platform": "twitter", "url": "https://twitter.com" },
+          { "platform": "linkedin", "url": "https://linkedin.com" }
+        ]
+      }
+    }
+  ]
+}

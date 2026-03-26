@@ -1,0 +1,130 @@
+{
+  "id": "healthcare-01",
+  "name": "Healthcare Landing Page",
+  "industry": "healthcare",
+  "description": "Professional healthcare template with gradient hero, trust-focused design, and service highlights",
+  "colorScheme": {
+    "primary": "#2E86AB",
+    "primaryLight": "#E0F4F8",
+    "primaryDark": "#0D2B3E",
+    "secondary": "#3D9970",
+    "secondaryLight": "#E6F5EE",
+    "background": "#FFFFFF",
+    "text": "#0D2B3E",
+    "textLight": "#64748B",
+    "border": "#E5E7EB"
+  },
+  "fonts": {
+    "heading": "lor",
+    "body": "int",
+    "accent": "pf"
+  },
+  "sections": [
+    {
+      "type": "nav",
+      "enabled": true,
+      "config": {
+        "variant": "sticky",
+        "logo": {
+          "type": "text",
+          "text": "{{businessName}}",
+          "iconColor": "#2E86AB"
+        },
+        "links": [
+          { "label": "Services", "href": "#services" },
+          { "label": "Doctors", "href": "#doctors" },
+          { "label": "About Us", "href": "#about" },
+          { "label": "Patient Portal", "href": "#portal" }
+        ],
+        "cta": {
+          "label": "Book Appointment",
+          "href": "#book"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "hero",
+      "enabled": true,
+      "config": {
+        "variant": "gradient-split",
+        "headline": "{{headline}}",
+        "subheadline": "{{subheadline}}",
+        "cta": {
+          "primary": "{{ctaPrimary}}",
+          "secondary": "Learn More"
+        },
+        "backgroundGradient": "linear-gradient(160deg, #E0F4F8 0%, #E6F5EE 40%, #F0F8FF 100%)",
+        "image": {
+          "url": "{{heroImageUrl}}",
+          "position": "right"
+        }
+      }
+    },
+    {
+      "type": "features",
+      "enabled": true,
+      "config": {
+        "variant": "grid-3",
+        "headline": "Comprehensive Healthcare Services",
+        "subheadline": "We provide world-class medical care with compassion and expertise",
+        "features": [
+          {
+            "title": "Expert Care",
+            "description": "Board-certified physicians with decades of combined experience"
+          },
+          {
+            "title": "Modern Facilities",
+            "description": "State-of-the-art equipment and comfortable patient environments"
+          },
+          {
+            "title": "Patient-First Approach",
+            "description": "Your health and comfort are our top priorities"
+          },
+          {
+            "title": "24/7 Support",
+            "description": "Round-the-clock care coordination and emergency services"
+          },
+          {
+            "title": "Insurance Accepted",
+            "description": "We work with most major insurance providers"
+          },
+          {
+            "title": "Convenient Locations",
+            "description": "Multiple locations to serve you better"
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "enabled": true,
+      "config": {
+        "variant": "full-width",
+        "headline": "Ready to prioritize your health?",
+        "subheadline": "Schedule your appointment today and experience the difference quality healthcare makes",
+        "buttonText": "Book Your Appointment",
+        "buttonHref": "#book"
+      }
+    },
+    {
+      "type": "footer",
+      "enabled": true,
+      "config": {
+        "variant": "simple",
+        "companyName": "{{businessName}}",
+        "tagline": "{{tagline}}",
+        "links": [
+          { "label": "Services", "href": "#services" },
+          { "label": "About", "href": "#about" },
+          { "label": "Contact", "href": "#contact" },
+          { "label": "Privacy Policy", "href": "#privacy" }
+        ],
+        "social": [
+          { "platform": "facebook", "url": "https://facebook.com" },
+          { "platform": "linkedin", "url": "https://linkedin.com" }
+        ]
+      }
+    }
+  ]
+}
