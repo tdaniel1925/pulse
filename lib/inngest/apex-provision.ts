@@ -94,7 +94,7 @@ export const apexProvision = inngest.createFunction(
 
           // Generate image
           let imageUrls: any = {};
-          if (moderationStatus !== 'rejected') {
+          if (moderationStatus !== 'flagged') {
             try {
               const rawImageUrl = await generateSocialImage(
                 post.imagePrompt,

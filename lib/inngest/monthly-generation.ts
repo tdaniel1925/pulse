@@ -96,9 +96,9 @@ export const monthlyGeneration = inngest.createFunction(
               client.moderation_required
             );
 
-            // Generate image (only if not rejected)
+            // Generate image (only if not flagged)
             let imageUrls: any = {};
-            if (moderationStatus !== 'rejected') {
+            if (moderationStatus !== 'flagged') {
               try {
                 const rawImageUrl = await generateSocialImage(
                   post.imagePrompt,

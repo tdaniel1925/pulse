@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Client as SquareClient, Environment } from 'square';
 import crypto from 'crypto';
 

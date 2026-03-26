@@ -49,7 +49,7 @@ export default async function SocialPage() {
           <div className="flex items-center gap-4">
             <span className="text-sm font-medium text-slate-700">Active Platforms:</span>
             <div className="flex gap-2">
-              {client.selected_platforms.map((platform) => (
+              {client.selected_platforms.map((platform: string) => (
                 <span
                   key={platform}
                   className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-purple-100 text-purple-700 capitalize"
