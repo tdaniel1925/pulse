@@ -6,6 +6,10 @@ import { resizeForOG } from '@/lib/services/sharp-resize';
 import { moderateMultipleFields, determineModerationStatus } from '@/lib/services/moderation';
 import { canCreateLandingPage } from '@/lib/config/plans';
 
+// Force dynamic rendering - prevents static generation at build time
+export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
+
 /**
  * POST /api/generate/page
  * Generate new landing page

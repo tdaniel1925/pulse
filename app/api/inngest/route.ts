@@ -7,6 +7,9 @@ import { dailyEmail } from '@/lib/inngest/daily-email';
 import { apexProvision } from '@/lib/inngest/apex-provision';
 import { cleanupOldImages } from '@/lib/inngest/cleanup-old-images';
 
+// Force dynamic rendering
+export const dynamic = 'force-dynamic';
+
 /**
  * Inngest API route
  * Registers all background job functions

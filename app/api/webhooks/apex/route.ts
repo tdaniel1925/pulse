@@ -3,6 +3,9 @@ import { createAdminClient } from '@/lib/supabase/admin';
 import { createCustomer } from '@/lib/services/square';
 import { inngest } from '@/lib/inngest/client';
 
+// Force dynamic rendering
+export const dynamic = 'force-dynamic';
+
 /**
  * POST /api/webhooks/apex
  * Handle Apex Affinity Group provisioning webhooks

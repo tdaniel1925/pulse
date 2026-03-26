@@ -3,6 +3,9 @@ import { createAdminClient } from '@/lib/supabase/admin';
 import { verifyWebhookSignature, createSubscription, getSubscriptionPlanId } from '@/lib/services/square';
 import { inngest } from '@/lib/inngest/client';
 
+// Force dynamic rendering
+export const dynamic = 'force-dynamic';
+
 /**
  * POST /api/webhooks/square
  * Handle Square payment webhooks
