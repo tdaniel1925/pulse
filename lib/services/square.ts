@@ -1,6 +1,6 @@
-// @ts-nocheck
 import { Client as SquareClient, Environment } from 'square';
 import crypto from 'crypto';
+import type { CreateCustomerParams, CreateSubscriptionParams } from '@/lib/types/payments';
 
 const squareClient = new SquareClient({
   accessToken: process.env.SQUARE_ACCESS_TOKEN!,
@@ -17,11 +17,7 @@ const squareClient = new SquareClient({
 /**
  * Create Square customer
  */
-export async function createCustomer(params: {
-  email: string;
-  givenName: string;
-  familyName?: string;
-}) {
+export async function createCustomer(params: CreateCustomerParams) {
   const response = await squareClient.customersApi.createCustomer({
     emailAddress: params.email,
     givenName: params.givenName,
@@ -38,11 +34,7 @@ export async function createCustomer(params: {
 /**
  * Create Square subscription for monthly plan
  */
-export async function createSubscription(params: {
-  customerId: string;
-  planId: string;
-  locationId: string;
-}) {
+export async function createSubscription(params: CreateSubscriptionParams) {
   const response = await squareClient.subscriptionsApi.createSubscription({
     locationId: params.locationId,
     customerId: params.customerId,
